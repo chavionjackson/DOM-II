@@ -17,10 +17,10 @@ document.addEventListener('keypress', (event) => {
 });
 
 //Use wheel to change font size
-const bigText = document.querySelectorAll('h2');
-bigText[1].addEventListener('wheel', (event) => {
-    event.target.style.fontSize = '90px';
-});
+// const bigText = document.querySelectorAll('h2');
+// bigText[1].addEventListener('wheel', (event) => {
+//     event.target.style.fontSize = '90px';
+// });
 
 //Use dblclick
 bigText[2].addEventListener('dblclick', (event) => {
